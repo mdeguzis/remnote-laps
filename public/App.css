@@ -1,0 +1,8 @@
+/*
+ * Intentionally empty, same as snippet.css.
+ *
+ * RemNote's widget host requests /App.css for every widget iframe. Without the
+ * file the dev server answers with its HTML fallback, and the browser then
+ * blocks it for a MIME type mismatch and logs an error against every widget.
+ * Laps builds its stylesheet in JavaScript, so there is nothing to put here.
+ */

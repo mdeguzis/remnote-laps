@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "id": "remnote-laps",
+  "name": "Laps",
+  "author": "mdeguzis",
+  "description": "A stopwatch with laps. Every document has its own key, and totals roll up through every folder above it. Editable lap list plus an interactive chart over any date range.",
+  "repoUrl": "https://github.com/mdeguzis/remnote-laps",
+  "projectUrl": "https://github.com/mdeguzis/remnote-laps",
+  "supportUrl": "https://github.com/mdeguzis/remnote-laps/issues",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "enableOnMobile": true,
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}

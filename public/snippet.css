@@ -1,0 +1,7 @@
+/*
+ * Intentionally empty.
+ *
+ * RemNote probes every plugin for /snippet.css when it loads. Laps styles its
+ * own widget iframes from JavaScript and has nothing to put here, but without
+ * the file the developer console fills with 404s that look like a real fault.
+ */
