@@ -91,8 +91,12 @@ function Row({
         </span>
         <span className="laps-tree__name">{node.name}</span>
         {/* Collapsed folders say how much is hidden, so the tree does not look
-            like it simply ends there. */}
-        {hasChildren && !expanded ? <span className="laps-tree__hidden">({descendantCount(node)})</span> : null}
+            like it simply ends there. The slot is ALWAYS rendered, empty when
+            there is nothing to say, so expanding a folder does not shift the
+            bars beside it. */}
+        <span className="laps-tree__hidden">
+          {hasChildren && !expanded ? `(${descendantCount(node)})` : ''}
+        </span>
         <span className="laps-tree__bar">
           <span style={{ width: `${(share * 100).toFixed(1)}%` }} />
         </span>

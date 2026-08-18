@@ -361,10 +361,19 @@ html, body { margin: 0; padding: 0; }
 .laps-tree__row--scoped { background-color: var(--laps-accent-soft); }
 .laps-tree__twisty { width: 14px; text-align: center; opacity: 0.55; font-size: 10px; }
 .laps-tree__name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.laps-tree__hidden { opacity: 0.5; font-variant-numeric: tabular-nums; flex-shrink: 0; }
-.laps-tree__total { font-variant-numeric: tabular-nums; opacity: 0.85; }
-.laps-tree__count { font-variant-numeric: tabular-nums; opacity: 0.5; width: 62px; text-align: right; }
-.laps-tree__bar { width: 70px; height: 5px; border-radius: 3px; background-color: rgba(128, 128, 128, 0.18); overflow: hidden; }
+/* Every column right of the name is a FIXED width, so the bars and the numbers
+   form straight lines down the tree whatever the names are and whatever depth
+   the row sits at. The name is the only thing allowed to flex. */
+.laps-tree__hidden {
+  opacity: 0.5;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  width: 34px;
+  text-align: right;
+}
+.laps-tree__total { font-variant-numeric: tabular-nums; opacity: 0.85; width: 62px; text-align: right; flex-shrink: 0; }
+.laps-tree__count { font-variant-numeric: tabular-nums; opacity: 0.5; width: 62px; text-align: right; flex-shrink: 0; }
+.laps-tree__bar { width: 70px; flex-shrink: 0; height: 5px; border-radius: 3px; background-color: rgba(128, 128, 128, 0.18); overflow: hidden; }
 .laps-tree__bar span { display: block; height: 100%; background-color: var(--laps-accent); }
 
 .laps-empty { padding: 26px 10px; text-align: center; opacity: 0.6; font-size: 13px; }
