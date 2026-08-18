@@ -8,6 +8,17 @@ answers for everything underneath it, without you adding anything up.
 
 ![Laps](public/logo.png)
 
+<img width="1305" height="207" alt="image" src="https://github.com/user-attachments/assets/70060988-8d04-4cda-bdbf-b5dcc58c6abf" />
+
+<img width="405" height="63" alt="image" src="https://github.com/user-attachments/assets/99c24ed5-67f2-4e74-baa2-886f04381d30" />
+
+## Main Features
+
+* Per document lap timer
+* Tracking per document, rolls all the way up to any folder or all folders to track your study habits.
+* Lap goal tracking: Want to set a lap/time max for studying on a particular document? No problem!
+* Edit/mange/delete times
+
 ## What it does
 
 A stopwatch pill sits under the Add Template button. Click it and the hands start
@@ -90,6 +101,24 @@ stopping the first, which is a measurement you are in the middle of taking.
 Each session stores the path it was recorded at rather than looking it up again
 later. Moving or deleting a document would otherwise change or lose its history,
 and last month's totals should stay put.
+
+## Screenshots
+
+### Lap Management
+
+<img width="1557" height="659" alt="image" src="https://github.com/user-attachments/assets/d6a58fa6-7523-4355-a4e9-59dbde642517" />
+
+## Document/ Folder scope
+
+Per document, rolls all the way up to any folder or all folders to track your study habits.
+
+<img width="679" height="311" alt="image" src="https://github.com/user-attachments/assets/10b18ebe-2bf0-449b-8db3-ffa76e2bec02" />
+
+## Setting goals
+
+Want to set a lap/time max for studying on a particular document? No problem!
+
+<img width="655" height="414" alt="image" src="https://github.com/user-attachments/assets/7a52cb92-18cf-49c7-be53-09cc27d2a45b" />
 
 ## Development
 
